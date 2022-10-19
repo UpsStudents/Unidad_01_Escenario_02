@@ -7,7 +7,7 @@ export interface FixedAssetBuilder {
     name: string,
     price: number,
   ): FixedAssetBuilder;
-  withDescription(code: string): FixedAssetBuilder;
+  withDescription(description: string): FixedAssetBuilder;
   withUsefulLife(life: number): FixedAssetBuilder;
   withDepreciationRate(rate: number): FixedAssetBuilder;
   withIngressDate(date: Date): FixedAssetBuilder;

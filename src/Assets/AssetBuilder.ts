@@ -17,8 +17,8 @@ export class AssetBuilder implements FixedAssetBuilder {
     this.fixedAsset.price = price;
     return this;
   }
-  withDescription(code: string): FixedAssetBuilder {
-    this.fixedAsset.description = code;
+  withDescription(description: string): FixedAssetBuilder {
+    this.fixedAsset.description = description;
     return this;
   }
   withUsefulLife(life: number): FixedAssetBuilder {
